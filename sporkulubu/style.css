@@ -1,0 +1,1563 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.container{
+	display: flex;
+	font-family: sans-serif;
+
+}
+.container .sidebar{
+	width: 250px;
+	height: auto;
+	background-color: #9FDB93;
+	text-align: center;
+}
+
+.container .sidebar .logo{
+	width: 150px;
+	height: 150px,;
+	margin-top: 5px;
+}
+.container .sidebar .arac_paneli{
+	display: flex;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.container .sidebar .arac_paneli .symbol{
+	width:30px;
+    height:30px;
+}
+
+.container .sidebar .arac_paneli .span{
+	color: black;
+	margin: 15px;
+	font-size: 15px;
+}
+.container .sidebar .arac_paneli .span a{
+	text-decoration: none;
+	color: black;
+}
+
+.logincontainer{
+	display: flex;
+	font-family: sans-serif;
+}
+.logincontainer .logincontent {
+	border: 5px solid black;
+  	padding: 100px;
+  	border-radius: 25px;
+	margin-top: 100px;
+	margin-left: 37%;
+	font-size: 20px;
+	background-color: darkslategray;
+
+}
+.logincontainer .logincontent .girisyaplabel{
+	font-size: 30px;
+	text-align: center;
+	font-weight: bold;
+	color: whitesmoke;
+}
+
+.logincontainer .logincontent .labelgiris{
+	margin-top: 50px;
+	color:whitesmoke;
+}
+
+.logincontainer .logincontent .buton{
+	margin-top: 40px;
+	align-items: center;
+	background-color:greenyellow;
+	color: black;
+	width:200px;
+	height: 100px;
+	font-weight:bold;
+	border-radius: 25px;
+	font-size: 25px;
+}
+
+.container .content{
+	flex: 1;
+	height: auto;
+	background-color: darkslategray;
+}
+
+.container .content .banner{
+	font-size: 25px;
+	color: whitesmoke;
+	text-align: center;
+	background-color: black;
+	padding:20px;
+
+}
+
+.container .content .brans_icerik{
+	font-family: sans-serif;
+}
+
+.container .content .brans_icerik .brans_tablosu{
+	background-color: black;
+	margin-top:50px;
+	margin-left: 50px;
+	margin-right:800px;
+	border: 5px solid black;
+	padding: 20px;
+	margin-bottom: 50px;
+	border-radius:25px;
+}
+
+.container .content .brans_icerik #bir{
+	font-weight: bolder;
+	color: greenyellow;
+	background-color: black;
+	padding: 20px;
+	text-align: center;
+}
+.container .content .brans_icerik #iki{
+	font-weight: bolder;
+	color: greenyellow;
+	background-color: black;
+	text-align: center;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.container .content .brans_icerik .brans_tablosu_veri #bir{
+	padding: 10px;
+	padding-top: 15px;
+	color: whitesmoke;
+	background-color: black;
+	text-align: center;
+}
+.container .content .brans_icerik .brans_tablosu_veri #iki{
+	padding: 10px;
+	padding-top: 15px;
+	color: whitesmoke;
+	background-color: black;
+	text-align: center;
+}
+
+
+.container .content .brans_icerik .bransToplami{
+	background-color: black;
+	margin-top:-950px;
+	margin-left: 700px;
+	margin-right:220px;
+	border: 5px solid black;
+	padding: 20px;
+	margin-bottom: 50px;
+	border-radius:25px;
+}
+.container .content .brans_icerik .bransToplami #bir{
+	font-weight: bolder;
+	color: greenyellow;
+	background-color: black;
+	padding: 20px;
+	text-align: center;
+}
+.container .content .brans_icerik .bransToplami #iki{
+	font-weight: bolder;
+	color: greenyellow;
+	background-color: black;
+	text-align: center;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.container .content .brans_icerik .bransToplami .bransToplami_veri #bir{
+	padding: 10px;
+	padding-top: 15px;
+	color: whitesmoke;
+	background-color: black;
+	text-align: center;
+}
+.container .content .brans_icerik .bransToplami .bransToplami_veri #iki{
+	padding: 10px;
+	padding-top: 15px;
+	color: whitesmoke;
+	background-color: black;
+	text-align: center;
+}
+
+.container .content .brans_icerik #brans_chart{
+	margin-left: 700px;
+	margin-right: 50px;
+	margin-bottom: 250px;
+	border: 5px solid white;
+	border-radius: 25px;
+	padding: 5px;
+	background-color: white;
+}
+
+.container .content .macucretleri_icerik .futboltahmin{
+	background-color: black;
+	margin-top:50px;
+	margin-left: 350px;
+	margin-right: 350px;
+	border: 5px solid black;
+	padding: 20px;
+	margin-bottom: 50px;
+	border-radius:25px;
+}
+.container .content .macucretleri_icerik .futboltahmin .futboltahmin_baslik{
+	font-weight: bolder;
+	color: greenyellow;
+	background-color: black;
+	padding: 20px;
+	text-align: center;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+.container .content .macucretleri_icerik .futboltahmin #kutu1{
+	margin-left: 60px;
+}
+.container .content .macucretleri_icerik .futboltahmin #kutu2{
+	margin-left: 60px;
+}
+.container .content .macucretleri_icerik .futboltahmin #buton{
+	margin-left: 165px;
+}
+.container .content .macucretleri_icerik .futboltahmin #toplam{
+	margin-left: 60px;
+	color: whitesmoke;
+	text-align: right;
+}
+.container .content .macucretleri_icerik .basketboltahmin{
+	background-color: black;
+	margin-top:50px;
+	margin-left: 350px;
+	margin-right: 350px;
+	border: 5px solid black;
+	padding: 20px;
+	margin-bottom: 50px;
+	border-radius:25px;
+}
+.container .content .macucretleri_icerik .basketboltahmin .basketboltahmin_baslik{
+	font-weight: bolder;
+	color: greenyellow;
+	background-color: black;
+	padding: 20px;
+	text-align: center;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+.container .content .macucretleri_icerik .basketboltahmin #kutu3{
+	margin-left: 60px;
+}
+.container .content .macucretleri_icerik .basketboltahmin #kutu4{
+	margin-left: 60px;
+}
+.container .content .macucretleri_icerik .basketboltahmin #buton{
+	margin-left: 165px;
+}
+.container .content .macucretleri_icerik .basketboltahmin #toplam{
+	margin-left: 60px;
+	color: whitesmoke;
+	text-align: right;
+}
+
+.container .content .sponsor_icerik{
+	font-family: sans-serif;
+}
+.container .content .sponsor_icerik .futbol{
+	background-color: black;
+	margin-top:50px;
+	margin-left: 200px;
+	margin-right:300px;
+	border: 5px solid black;
+	padding: 20px;
+	border-radius:25px;
+}
+.container .content .sponsor_icerik .futbol .baslik{
+
+}
+.container .content .sponsor_icerik .futbol .baslik #bir{
+	font-weight: bolder;
+	color: greenyellow;
+	background-color: black;
+	padding: 20px;
+}
+.container .content .sponsor_icerik .futbol .baslik #iki{
+	font-weight: bolder;
+	color: greenyellow;
+	background-color: black;
+	align-items: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.container .content .sponsor_icerik .futbol .baslik #uc{
+	font-weight: bolder;
+	color: greenyellow;
+	background-color: black;
+	align-items: center;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.container .content .sponsor_icerik .futbol .baslik #dort{
+	font-weight: bolder;
+	color: greenyellow;
+	background-color: black;
+	align-items: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.container .content .sponsor_icerik .futbol .baslik #bes{
+	font-weight: bolder;
+	color: greenyellow;
+	background-color: black;
+	align-items: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.container .content .sponsor_icerik .futbol .s_futbol_veri{
+
+}
+.container .content .sponsor_icerik .futbol .s_futbol_veri #bir{
+	padding: 10px;
+	padding-top: 15px;
+	color: whitesmoke;
+	background-color: black;
+	text-align: center;
+
+}
+.container .content .sponsor_icerik .futbol .s_futbol_veri #iki{
+	color: whitesmoke;
+	background-color: black;
+	text-align: center;
+
+}
+.container .content .sponsor_icerik .futbol .s_futbol_veri #uc{
+	color: whitesmoke;
+	background-color: black;
+	text-align: center;
+
+}
+.container .content .sponsor_icerik .futbol .s_futbol_veri #dort{
+	color: whitesmoke;
+	background-color: black;
+	text-align: center;
+
+}
+	
+.container .content .sponsor_icerik .futbol .s_futbol_veri #bes{
+	color: whitesmoke;
+	background-color: black;
+	text-align: center;
+
+}
+
+.container .content .sponsor_icerik .basketbol{
+	background-color: black;
+	margin-top:50px;
+	margin-left: 200px;
+	margin-right:300px;
+	border: 5px solid black;
+	padding: 20px;
+	border-radius:25px;
+}
+.container .content .sponsor_icerik .basketbol .baslik{
+
+}
+.container .content .sponsor_icerik .basketbol .baslik #bir{
+	font-weight: bolder;
+	color: greenyellow;
+	background-color: black;
+	padding: 20px;
+}
+.container .content .sponsor_icerik .basketbol .baslik #iki{
+	font-weight: bolder;
+	color: greenyellow;
+	background-color: black;
+	align-items: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.container .content .sponsor_icerik .basketbol .baslik #uc{
+	font-weight: bolder;
+	color: greenyellow;
+	background-color: black;
+	align-items: center;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.container .content .sponsor_icerik .basketbol .baslik #dort{
+	font-weight: bolder;
+	color: greenyellow;
+	background-color: black;
+	align-items: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.container .content .sponsor_icerik .basketbol .baslik #bes{
+	font-weight: bolder;
+	color: greenyellow;
+	background-color: black;
+	align-items: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.container .content .sponsor_icerik .basketbol .s_basketbol_veri{
+
+}
+.container .content .sponsor_icerik .basketbol .s_basketbol_veri #bir{
+	padding: 10px;
+	padding-top: 15px;
+	color: whitesmoke;
+	background-color: black;
+	text-align: center;
+
+}
+.container .content .sponsor_icerik .basketbol .s_basketbol_veri #iki{
+	color: whitesmoke;
+	background-color: black;
+	text-align: center;
+
+}
+.container .content .sponsor_icerik .basketbol .s_basketbol_veri #uc{
+	color: whitesmoke;
+	background-color: black;
+	text-align: center;
+
+}
+.container .content .sponsor_icerik .basketbol .s_basketbol_veri #dort{
+	color: whitesmoke;
+	background-color: black;
+	text-align: center;
+
+}
+	
+.container .content .sponsor_icerik .basketbol .s_basketbol_veri #bes{
+	color: whitesmoke;
+	background-color: black;
+	text-align: center;
+
+}
+.container .content .sponsor_icerik .voleybol{
+	background-color: black;
+	margin-top:50px;
+	margin-left: 200px;
+	margin-right:300px;
+	border: 5px solid black;
+	padding: 20px;
+	margin-bottom: 50px;
+	border-radius:25px;
+}
+.container .content .sponsor_icerik .voleybol .baslik{
+
+}
+.container .content .sponsor_icerik .voleybol .baslik #bir{
+	font-weight: bolder;
+	color: greenyellow;
+	background-color: black;
+	padding: 20px;
+}
+.container .content .sponsor_icerik .voleybol .baslik #iki{
+	font-weight: bolder;
+	color: greenyellow;
+	background-color: black;
+	align-items: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.container .content .sponsor_icerik .voleybol .baslik #uc{
+	font-weight: bolder;
+	color: greenyellow;
+	background-color: black;
+	align-items: center;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.container .content .sponsor_icerik .voleybol .baslik #dort{
+	font-weight: bolder;
+	color: greenyellow;
+	background-color: black;
+	align-items: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.container .content .sponsor_icerik .voleybol .baslik #bes{
+	font-weight: bolder;
+	color: greenyellow;
+	background-color: black;
+	align-items: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.container .content .sponsor_icerik .voleybol .s_voleybol_veri{
+
+}
+.container .content .sponsor_icerik .voleybol .s_voleybol_veri #bir{
+	padding: 10px;
+	padding-top: 15px;
+	color: whitesmoke;
+	background-color: black;
+	text-align: center;
+
+}
+.container .content .sponsor_icerik .voleybol .s_voleybol_veri #iki{
+	color: whitesmoke;
+	background-color: black;
+	text-align: center;
+
+}
+.container .content .sponsor_icerik .voleybol .s_voleybol_veri #uc{
+	color: whitesmoke;
+	background-color: black;
+	text-align: center;
+
+}
+.container .content .sponsor_icerik .voleybol .s_voleybol_veri #dort{
+	color: whitesmoke;
+	background-color: black;
+	text-align: center;
+
+}
+	
+.container .content .sponsor_icerik .voleybol .s_voleybol_veri #bes{
+	color: whitesmoke;
+	background-color: black;
+	text-align: center;
+
+}
+
+.container .content .macucretleri_icerik{
+	font-family: sans-serif;
+}
+
+.container .content .macucretleri_icerik .futbol{
+
+}
+.container .content .macucretleri_icerik .futbol .futbol1{
+	background-color: black;
+	margin-top:50px;
+	margin-left: 10px;
+	margin-right:590px;
+	border: 5px solid black;
+	padding: 20px;
+	margin-bottom: 50px;
+	border-radius:25px;
+
+}
+.container .content .macucretleri_icerik .futbol .futbol1 .baslik{
+
+}
+.container .content .macucretleri_icerik .futbol .futbol1 .baslik #bir{
+	font-weight: bolder;
+	color: greenyellow;
+	background-color: black;
+	padding: 20px;
+	text-align: center;
+}
+.container .content .macucretleri_icerik .futbol .futbol1 .baslik #iki{
+	font-weight: bolder;
+	color: greenyellow;
+	background-color: black;
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.container .content .macucretleri_icerik .futbol .futbol1 .baslik #uc{
+	font-weight: bolder;
+	color: greenyellow;
+	background-color: black;
+	align-items: center;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.container .content .macucretleri_icerik .futbol .futbol1 .baslik #dort{
+	font-weight: bolder;
+	color: greenyellow;
+	background-color: black;
+	align-items: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.container .content .macucretleri_icerik .futbol .futbol1 .baslik #bes{
+	font-weight: bolder;
+	color: greenyellow;
+	background-color: black;
+	align-items: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.container .content .macucretleri_icerik .futbol .futbol1 .futbol_mu_veri{
+
+}
+.container .content .macucretleri_icerik .futbol .futbol1 .futbol_mu_veri #bir{
+	padding: 10px;
+	padding-top: 15px;
+	color: whitesmoke;
+	background-color: black;
+	text-align: center;
+
+}
+.container .content .macucretleri_icerik .futbol .futbol1 .futbol_mu_veri #iki{
+	color: whitesmoke;
+	background-color: black;
+	text-align: center;
+
+}
+.container .content .macucretleri_icerik .futbol .futbol1 .futbol_mu_veri #uc{
+	color: whitesmoke;
+	background-color: black;
+	text-align: center;
+
+}
+.container .content .macucretleri_icerik .futbol .futbol1 .futbol_mu_veri #dort{
+	color: whitesmoke;
+	background-color: black;
+	text-align: center;
+
+}
+	
+.container .content .macucretleri_icerik .futbol .futbol1 .futbol_mu_veri #bes{
+	color: whitesmoke;
+	background-color: black;
+	text-align: center;
+
+}
+
+.container .content .macucretleri_icerik .futbol .futbol2{
+	background-color: black;
+	margin-left: 820px;
+	margin-right:10px;
+	border: 5px solid black;
+	padding: 20px;
+	margin-top: -600px;
+	margin-bottom: 50px;
+	border-radius:25px;
+
+}
+
+.container .content .macucretleri_icerik .futbol .futbol2 #bir{
+	font-weight: bolder;
+	color: greenyellow;
+	background-color: black;
+	align-items: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.container .content .macucretleri_icerik .futbol .futbol2 #iki{
+	font-weight: bolder;
+	color: greenyellow;
+	background-color: black;
+	align-items: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.container .content .macucretleri_icerik .futbol .futbol2 .futbol_mu_veri2 #bir{
+	padding: 10px;
+	padding-top: 15px;
+	color: whitesmoke;
+	background-color: black;
+	text-align: center;
+
+}
+.container .content .macucretleri_icerik .futbol .futbol2 .futbol_mu_veri2 #iki{
+	padding: 10px;
+	padding-top: 15px;
+	color: whitesmoke;
+	background-color: black;
+	text-align: center;
+
+}
+.container .content .macucretleri_icerik .futbol .futbol3{
+	background-color: black;
+	margin-top:50px;
+	margin-left: 900px;
+	margin-right:100px;
+	border: 5px solid black;
+	padding: 20px;
+	margin-bottom: 320px;
+	border-radius:25px;
+}
+.container .content .macucretleri_icerik .futbol .futbol3 #bir{
+	font-weight: bolder;
+	color: greenyellow;
+	background-color: black;
+	align-items: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.container .content .macucretleri_icerik .futbol .futbol3 .futbol_mu_veri3 #bir{
+	padding: 10px;
+	padding-top: 15px;
+	color: whitesmoke;
+	background-color: black;
+	text-align: center;
+
+}
+
+.container .content .macucretleri_icerik .basketbol{
+
+}
+.container .content .macucretleri_icerik .basketbol .basketbol1{
+	background-color: black;
+	margin-top:50px;
+	margin-left: 10px;
+	margin-right:590px;
+	border: 5px solid black;
+	padding: 20px;
+	margin-bottom: 50px;
+	border-radius:25px;
+
+}
+
+.container .content .macucretleri_icerik .basketbol .basketbol1 #bir{
+	font-weight: bolder;
+	color: greenyellow;
+	background-color: black;
+	padding: 20px;
+	text-align: center;
+}
+.container .content .macucretleri_icerik .basketbol .basketbol1 #iki{
+	font-weight: bolder;
+	color: greenyellow;
+	background-color: black;
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.container .content .macucretleri_icerik .basketbol .basketbol1 #uc{
+	font-weight: bolder;
+	color: greenyellow;
+	background-color: black;
+	align-items: center;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.container .content .macucretleri_icerik .basketbol .basketbol1 #dort{
+	font-weight: bolder;
+	color: greenyellow;
+	background-color: black;
+	align-items: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.container .content .macucretleri_icerik .basketbol .basketbol1 #bes{
+	font-weight: bolder;
+	color: greenyellow;
+	background-color: black;
+	align-items: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.container .content .macucretleri_icerik .basketbol .basketbol1 .basketbol_mu_veri #bir{
+	padding: 10px;
+	padding-top: 15px;
+	color: whitesmoke;
+	background-color: black;
+	text-align: center;
+
+}
+.container .content .macucretleri_icerik .basketbol .basketbol1 .basketbol_mu_veri #iki{
+	color: whitesmoke;
+	background-color: black;
+	text-align: center;
+
+}
+.container .content .macucretleri_icerik .basketbol .basketbol1 .basketbol_mu_veri #uc{
+	color: whitesmoke;
+	background-color: black;
+	text-align: center;
+
+}
+.container .content .macucretleri_icerik .basketbol .basketbol1 .basketbol_mu_veri #dort{
+	color: whitesmoke;
+	background-color: black;
+	text-align: center;
+
+}
+	
+.container .content .macucretleri_icerik .basketbol .basketbol1 .basketbol_mu_veri #bes{
+	color: whitesmoke;
+	background-color: black;
+	text-align: center;
+
+}
+
+.container .content .macucretleri_icerik .basketbol .basketbol2{
+	background-color: black;
+	margin-left: 820px;
+	margin-right:10px;
+	border: 5px solid black;
+	padding: 20px;
+	margin-top: -600px;
+	margin-bottom: 50px;
+	border-radius:25px;
+
+}
+
+.container .content .macucretleri_icerik .basketbol .basketbol2 #bir{
+	font-weight: bolder;
+	color: greenyellow;
+	background-color: black;
+	align-items: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.container .content .macucretleri_icerik .basketbol .basketbol2 #iki{
+	font-weight: bolder;
+	color: greenyellow;
+	background-color: black;
+	align-items: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.container .content .macucretleri_icerik .basketbol .basketbol2 .basketbol_mu_veri2 #bir{
+	padding: 10px;
+	padding-top: 15px;
+	color: whitesmoke;
+	background-color: black;
+	text-align: center;
+
+}
+.container .content .macucretleri_icerik .basketbol .basketbol2 .basketbol_mu_veri2 #iki{
+	padding: 10px;
+	padding-top: 15px;
+	color: whitesmoke;
+	background-color: black;
+	text-align: center;
+
+}
+.container .content .macucretleri_icerik .basketbol .basketbol3{
+	background-color: black;
+	margin-top:50px;
+	margin-left: 900px;
+	margin-right:100px;
+	border: 5px solid black;
+	padding: 20px;
+	margin-bottom: 320px;
+	border-radius:25px;
+}
+.container .content .macucretleri_icerik .basketbol .basketbol3 #bir{
+	font-weight: bolder;
+	color: greenyellow;
+	background-color: black;
+	align-items: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.container .content .macucretleri_icerik .basketbol .basketbol3 .basketbol_mu_veri3 #bir{
+	padding: 10px;
+	padding-top: 15px;
+	color: whitesmoke;
+	background-color: black;
+	text-align: center;
+
+}
+.container .content .yenibrans_icerik{
+	font-family: sans-serif;
+}
+.container .content .yenibrans_icerik .yenibrans_tablo1{
+	background-color: black;
+	margin-top:50px;
+	margin-left: 450px;
+	margin-right:500px;
+	border: 5px solid black;
+	padding: 20px;
+	margin-bottom: 50px;
+	border-radius:25px;
+
+}
+.container .content .yenibrans_icerik .yenibrans_tablo1 #bir{
+	font-weight: bolder;
+	color: greenyellow;
+	background-color: black;
+	padding: 20px;
+	text-align: center;
+}
+.container .content .yenibrans_icerik .yenibrans_tablo1 #iki{
+	font-weight: bolder;
+	color: greenyellow;
+	background-color: black;
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.container .content .yenibrans_icerik .yenibrans_tablo1 .yenibrans_genel_veri1 #bir{
+	padding: 10px;
+	padding-top: 15px;
+	color: whitesmoke;
+	background-color: black;
+	text-align: center;
+
+}
+.container .content .yenibrans_icerik .yenibrans_tablo1 .yenibrans_genel_veri1 #iki{
+	color: whitesmoke;
+	background-color: black;
+	text-align: center;
+
+}
+.container .content .yenibrans_icerik .yenibrans_tablo2{
+	background-color: black;
+	margin-top:50px;
+	margin-left: 100px;
+	margin-right:110px;
+	border: 5px solid black;
+	padding: 20px;
+	margin-bottom: 50px;
+	border-radius:25px;
+
+}
+.container .content .yenibrans_icerik .yenibrans_tablo2 #bir{
+	font-weight: bolder;
+	color: greenyellow;
+	background-color: black;
+	padding: 20px;
+	text-align: center;
+}
+.container .content .yenibrans_icerik .yenibrans_tablo2 #iki{
+	font-weight: bolder;
+	color: greenyellow;
+	background-color: black;
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.container .content .yenibrans_icerik .yenibrans_tablo2 #uc{
+	font-weight: bolder;
+	color: greenyellow;
+	background-color: black;
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.container .content .yenibrans_icerik .yenibrans_tablo2 #dort{
+	font-weight: bolder;
+	color: greenyellow;
+	background-color: black;
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.container .content .yenibrans_icerik .yenibrans_tablo2 .yenibrans_genel_veri2 #bir{
+	padding: 10px;
+	padding-top: 15px;
+	color: whitesmoke;
+	background-color: black;
+	text-align: center;
+
+}
+.container .content .yenibrans_icerik .yenibrans_tablo2 .yenibrans_genel_veri2 #iki{
+	color: whitesmoke;
+	background-color: black;
+	text-align: center;
+}
+.container .content .yenibrans_icerik .yenibrans_tablo2 .yenibrans_genel_veri2 #uc{
+	color: whitesmoke;
+	background-color: black;
+	text-align: center;
+}
+.container .content .yenibrans_icerik .yenibrans_tablo2 .yenibrans_genel_veri2 #dort{
+	color: whitesmoke;
+	background-color: black;
+	text-align: center;
+}
+.container .content .yenibrans_icerik .yenibrans_tablo3{
+	background-color: black;
+	margin-top:50px;
+	margin-left: 120px;
+	margin-right:120px;
+	border: 5px solid black;
+	padding: 20px;
+	margin-bottom: 50px;
+	border-radius:25px;
+
+}
+.container .content .yenibrans_icerik .yenibrans_tablo3 #bir{
+	font-weight: bolder;
+	color: greenyellow;
+	background-color: black;
+	padding: 20px;
+	text-align: center;
+}
+.container .content .yenibrans_icerik .yenibrans_tablo3 #iki{
+	font-weight: bolder;
+	color: greenyellow;
+	background-color: black;
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.container .content .yenibrans_icerik .yenibrans_tablo3 #uc{
+	font-weight: bolder;
+	color: greenyellow;
+	background-color: black;
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.container .content .yenibrans_icerik .yenibrans_tablo3 #dort{
+	font-weight: bolder;
+	color: greenyellow;
+	background-color: black;
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.container .content .yenibrans_icerik .yenibrans_tablo3 #bes{
+	font-weight: bolder;
+	color: greenyellow;
+	background-color: black;
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.container .content .yenibrans_icerik .yenibrans_tablo3 #alti{
+	font-weight: bolder;
+	color: greenyellow;
+	background-color: black;
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.container .content .yenibrans_icerik .yenibrans_tablo3 .yenibrans_genel_veri3 #bir{
+	padding: 10px;
+	padding-top: 15px;
+	color: whitesmoke;
+	background-color: black;
+	text-align: center;
+
+}
+.container .content .yenibrans_icerik .yenibrans_tablo3 .yenibrans_genel_veri3 #iki{
+	color: whitesmoke;
+	background-color: black;
+	text-align: center;
+}
+.container .content .yenibrans_icerik .yenibrans_tablo3 .yenibrans_genel_veri3 #uc{
+	color: whitesmoke;
+	background-color: black;
+	text-align: center;
+}
+.container .content .yenibrans_icerik .yenibrans_tablo3 .yenibrans_genel_veri3 #dort{
+	color: whitesmoke;
+	background-color: black;
+	text-align: center;
+}
+.container .content .yenibrans_icerik .yenibrans_tablo3 .yenibrans_genel_veri3 #bes{
+	color: whitesmoke;
+	background-color: black;
+	text-align: center;
+}
+.container .content .yenibrans_icerik .yenibrans_tablo3 .yenibrans_genel_veri3 #alti{
+	color: whitesmoke;
+	background-color: black;
+	text-align: center;
+}
+.container .content .yenibrans_icerik .yenibrans_tablo4{
+	background-color: black;
+	margin-top:50px;
+	margin-left: 270px;
+	margin-right:270px;
+	border: 5px solid black;
+	padding: 20px;
+	margin-bottom: 50px;
+	border-radius:25px;
+
+}
+.container .content .yenibrans_icerik .yenibrans_tablo4 #bir{
+	font-weight: bolder;
+	color: greenyellow;
+	background-color: black;
+	padding: 20px;
+	text-align: center;
+}
+.container .content .yenibrans_icerik .yenibrans_tablo4 #iki{
+	font-weight: bolder;
+	color: greenyellow;
+	background-color: black;
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.container .content .yenibrans_icerik .yenibrans_tablo4 #uc{
+	font-weight: bolder;
+	color: greenyellow;
+	background-color: black;
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.container .content .yenibrans_icerik .yenibrans_tablo4 #dort{
+	font-weight: bolder;
+	color: greenyellow;
+	background-color: black;
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.container .content .yenibrans_icerik .yenibrans_tablo4 .yenibrans_genel_veri4 #bir{
+	padding: 10px;
+	padding-top: 15px;
+	color: whitesmoke;
+	background-color: black;
+	text-align: center;
+
+}
+.container .content .yenibrans_icerik .yenibrans_tablo4 .yenibrans_genel_veri4 #iki{
+	color: whitesmoke;
+	background-color: black;
+	text-align: center;
+}
+.container .content .yenibrans_icerik .yenibrans_tablo4 .yenibrans_genel_veri4 #uc{
+	color: whitesmoke;
+	background-color: black;
+	text-align: center;
+}
+.container .content .yenibrans_icerik .yenibrans_tablo4 .yenibrans_genel_veri4 #dort{
+	color: whitesmoke;
+	background-color: black;
+	text-align: center;
+}
+.container .content .yenibrans_icerik .yenibrans_tablo5{
+	background-color: black;
+	margin-top:50px;
+	margin-left: 150px;
+	margin-right:220px;
+	border: 5px solid yellowgreen;
+	padding: 20px;
+	margin-bottom: 50px;
+	border-radius:25px;
+
+}
+.container .content .yenibrans_icerik .yenibrans_tablo5 #bir{
+	font-weight: bolder;
+	color: greenyellow;
+	background-color: black;
+	padding: 20px;
+	text-align: center;
+}
+.container .content .yenibrans_icerik .yenibrans_tablo5 #iki{
+	font-weight: bolder;
+	color: greenyellow;
+	background-color: black;
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.container .content .yenibrans_icerik .yenibrans_tablo5 #uc{
+	font-weight: bolder;
+	color: greenyellow;
+	background-color: black;
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.container .content .yenibrans_icerik .yenibrans_tablo5 #dort{
+	font-weight: bolder;
+	color: greenyellow;
+	background-color: black;
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.container .content .yenibrans_icerik .yenibrans_tablo5 #bes{
+	font-weight: bolder;
+	color: greenyellow;
+	background-color: black;
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.container .content .yenibrans_icerik .yenibrans_tablo5 #alti{
+	font-weight: bolder;
+	color: greenyellow;
+	background-color: black;
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.container .content .yenibrans_icerik .yenibrans_tablo5 .yenibrans_genel_veri5 #bir{
+	padding: 10px;
+	padding-top: 15px;
+	color: whitesmoke;
+	background-color: black;
+	text-align: center;
+
+}
+.container .content .yenibrans_icerik .yenibrans_tablo5 .yenibrans_genel_veri5 #iki{
+	color: whitesmoke;
+	background-color: black;
+	text-align: center;
+}
+.container .content .yenibrans_icerik .yenibrans_tablo5 .yenibrans_genel_veri5 #uc{
+	color: whitesmoke;
+	background-color: black;
+	text-align: center;
+}
+.container .content .yenibrans_icerik .yenibrans_tablo5 .yenibrans_genel_veri5 #dort{
+	color: whitesmoke;
+	background-color: black;
+	text-align: center;
+}
+.container .content .yenibrans_icerik .yenibrans_tablo5 .yenibrans_genel_veri5 #bes{
+	color: whitesmoke;
+	background-color: black;
+	text-align: center;
+}
+.container .content .yenibrans_icerik .yenibrans_tablo5 .yenibrans_genel_veri5 #alti{
+	color: whitesmoke;
+	background-color: black;
+	text-align: center;
+}
+
+.container .content .siparis_icerik{
+	font-family: sans-serif;
+}
+.container .content .siparis_icerik .siparis_tablo1{
+	background-color: black;
+	margin-top:10px;
+	margin-left: 70px;
+	margin-right:700px;
+	border: 5px solid black;
+	padding: 10px;
+	margin-bottom: 50px;
+	border-radius:25px;
+
+}
+.container .content .siparis_icerik .baslik1{
+	background-color: black;
+	margin-top:20px;
+	margin-left: 120px;
+	margin-right:780px;
+	border: 5px solid black;
+	padding: 10px;
+	margin-bottom: 50px;
+	border-radius:25px;
+
+}
+.container .content .siparis_icerik .baslik1 #bir{
+	font-weight: bolder;
+	color: greenyellow;
+	background-color: black;
+	padding: 20px;
+	text-align: center;
+}
+.container .content .siparis_icerik .siparis_tablo1 #bir{
+	font-weight: bolder;
+	color: greenyellow;
+	background-color: black;
+	padding: 20px;
+	text-align: center;
+}
+.container .content .siparis_icerik .siparis_tablo1 #iki{
+	font-weight: bolder;
+	color: greenyellow;
+	background-color: black;
+	padding: 20px;
+	text-align: center;
+}
+.container .content .siparis_icerik .siparis_tablo1 #uc{
+	font-weight: bolder;
+	color: greenyellow;
+	background-color: black;
+	padding: 20px;
+	text-align: center;
+}
+.container .content .siparis_icerik .siparis_tablo1 #dort{
+	font-weight: bolder;
+	color: greenyellow;
+	background-color: black;
+	padding: 20px;
+	text-align: center;
+}
+.container .content .siparis_icerik .siparis_tablo1 .sehirlerin_sv #bir{
+	color: whitesmoke;
+	background-color: black;
+	text-align: center;
+}
+.container .content .siparis_icerik .siparis_tablo1 .sehirlerin_sv #iki{
+	color: whitesmoke;
+	background-color: black;
+	text-align: center;
+}
+.container .content .siparis_icerik .siparis_tablo1 .sehirlerin_sv #uc{
+	color: whitesmoke;
+	background-color: black;
+	text-align: center;
+}
+.container .content .siparis_icerik .siparis_tablo1 .sehirlerin_sv #dort{
+	color: whitesmoke;
+	background-color: black;
+	text-align: center;
+}
+.container .content .siparis_icerik .siparis_tablo2{
+	background-color: black;
+	margin-top:9px;
+	margin-left: 700px;
+	margin-right:70px;
+	border: 5px solid black;
+	padding: 10px;
+	margin-bottom: 1450px;
+	border-radius:25px;
+
+}
+.container .content .siparis_icerik .baslik2{
+	background-color: black;
+	margin-top:-3240px;
+	margin-left: 820px;
+	margin-right: 230px;
+	border: 5px solid black;
+	padding: 10px;
+	margin-bottom: 50px;
+	border-radius:25px;
+
+}
+.container .content .siparis_icerik .baslik2 #iki{
+	font-weight: bolder;
+	color: greenyellow;
+	background-color: black;
+	padding: 20px;
+	text-align: center;
+}
+.container .content .siparis_icerik .siparis_tablo2 #bir{
+	font-weight: bolder;
+	color: greenyellow;
+	background-color: black;
+	padding: 20px;
+	text-align: center;
+}
+.container .content .siparis_icerik .siparis_tablo2 #iki{
+	font-weight: bolder;
+	color: greenyellow;
+	background-color: black;
+	padding: 20px;
+	text-align: center;
+}
+.container .content .siparis_icerik .siparis_tablo2 .hasilatsizsehirler_veri #bir{
+	color: whitesmoke;
+	background-color: black;
+	text-align: center;
+}
+.container .content .siparis_icerik .siparis_tablo2 .hasilatsizsehirler_veri #iki{
+	color: whitesmoke;
+	background-color: black;
+	text-align: center;
+}
+.container .content .searchuye{
+
+}
+
+.container .content .searchuye #kazancsorgu{
+	width: 200px;
+	height: 50px;
+	margin-left: 500px;
+	margin-right: 50px;
+	text-align: center;
+}
+.container .content .baslik{
+	background-color: black;
+	margin-top:40px;
+	margin-left: 270px;
+	margin-right: 270px;
+	border: 5px solid black;
+	padding: 20px;
+	margin-bottom: 50px;
+	border-radius:25px;
+	text-align: center;
+
+}
+.container .content .baslik #bir{
+	font-weight: bolder;
+	color: greenyellow;
+	background-color: black;
+	padding: 20px;
+	text-align: center;
+}
+
+.uyegelirleriveri1{
+	background-color: black;
+	margin-top:50px;
+	margin-left: 150px;
+	margin-right: 30px;
+	border: 5px solid black;
+	padding: 10px;
+	margin-bottom: 50px;
+	border-radius:25px;
+}
+.uyegelirleriveri1 #bir{
+	font-weight: bolder;
+	color: greenyellow;
+	background-color: black;
+	padding: 20px;
+	text-align: center;
+}
+.uyegelirleriveri1 #iki{
+	font-weight: bolder;
+	color: greenyellow;
+	background-color: black;
+	padding: 20px;
+	text-align: center;
+}
+.uyegelirleriveri1 #uc{
+	font-weight: bolder;
+	color: greenyellow;
+	background-color: black;
+	padding: 20px;
+	text-align: center;
+}
+.uyegelirleriveri1 .uyegelirleriveri2 #bir{
+	color: whitesmoke;
+	background-color: black;
+	text-align: center;
+}
+.uyegelirleriveri1 .uyegelirleriveri2 #iki{
+	color: whitesmoke;
+	background-color: black;
+	text-align: center;
+}
+.uyegelirleriveri1 .uyegelirleriveri2 #uc{
+	color: whitesmoke;
+	background-color: black;
+	text-align: center;
+}
+.uyegelirleriveri2{
+	background-color: black;
+	margin-top:20px;
+	margin-left: 80px;
+	margin-right: 30px;
+	border: 5px solid black;
+	padding: 10px;
+	margin-bottom: 50px;
+	border-radius:25px;
+}
+
+.uyegelirleriveri3{
+	background-color: black;
+	margin-top:-3100px;
+	margin-left: 750px;
+	margin-right: 50px;
+	border: 5px solid black;
+	padding: 10px;
+	margin-bottom: 3000px;
+	border-radius:25px;
+
+}
+.uyegelirleriveri3 #bir{
+	font-weight: bolder;
+	color: greenyellow;
+	background-color: black;
+	padding: 20px;
+	text-align: center;
+}
+
+.uyegelirleriveri3 .uyegelirleriveri4 #bir{
+	color: whitesmoke;
+	background-color: black;
+	text-align: center;
+}
+
+.container .content .uyetahmin{
+	background-color: black;
+	margin-top:50px;
+	margin-left: 350px;
+	margin-right: 350px;
+	border: 5px solid black;
+	padding: 20px;
+	margin-bottom: 200px;
+	border-radius:25px;
+}
+.container .content .uyetahmin .uyetahmin_baslik{
+	font-weight: bolder;
+	color: greenyellow;
+	background-color: black;
+	padding: 20px;
+	text-align: center;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+.container .content .uyetahmin #kutu1{
+	margin-left: 60px;
+}
+.container .content .uyetahmin #buton{
+	margin-left: 165px;
+}
+.container .content .uyetahmin #toplam{
+	margin-left: 60px;
+	color: whitesmoke;
+	text-align: right;
+}
+.container .content .yenibrans_icerik .yenibrans_tahmin{
+	background-color: black;
+	margin-top:50px;
+	margin-left: 350px;
+	margin-right: 350px;
+	border: 5px solid greenyellow;
+	padding: 20px;
+	margin-bottom: 50px;
+	border-radius:25px;
+}
+.container .content .yenibrans_icerik .yenibrans_tahmin .yenibrans_tahmin_baslik{
+	font-weight: bolder;
+	color: greenyellow;
+	background-color: black;
+	padding: 20px;
+	text-align: center;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+.container .content .yenibrans_icerik .yenibrans_tahmin #kutu1{
+	margin-left: 60px;
+}
+.container .content .yenibrans_icerik .yenibrans_tahmin #kutu2{
+	margin-left: 60px;
+}
+.container .content .yenibrans_icerik .yenibrans_tahmin #kutu3{
+	margin-left: 60px;
+}
+.container .content .yenibrans_icerik .yenibrans_tahmin #kutu4{
+	margin-left: 60px;
+}
+.container .content .yenibrans_icerik .yenibrans_tahmin #kutu5{
+	margin-left: 60px;
+}
+.container .content .yenibrans_icerik .yenibrans_tahmin #buton{
+	margin-left: 165px;
+}
+.container .content .yenibrans_icerik .yenibrans_tahmin .toplam{
+	margin-left: 60px;
+	color: whitesmoke;
+	text-align: right;
+}
